@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+header {
+    /* border-bottom: 3px solid white; */
+    padding-bottom: 9px;
+    background-color: #0C0E1866;
+}
+
+body {
+    background-color: #101220;
+}
+
+.left>h1 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+
+}
+
+.right>button {
+    width: 175;
+    height: 50;
+    border-radius: 15px;
+    padding: 9px 66px;
+    background-color: transparent;
+    border: 2px solid white;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+
+}
+
+.right>button:focus {
+    background-color: #BFAFF2;
+    color: #333333;
+}
+
+.left select option {
+    background-color: #232828;
+    box-shadow: 0px 0px 11px #ffffff;
+    padding: 11px;
+    color: white;
+
+}
+
+select option {
+    mask-type: 13px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: transparent;
+
+}
+
+select {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+select option {
+    background-color: black;
+    border-radius: 20px
+}
+
+option:hover {
+    background-color: #BFAFF2;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 317px;
+}
+
+.card {
+    background-color: #232028;
+    border-radius: 32px;
+    position: relative;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 117px;
+    margin-bottom: -5 00px;
+}
+
+.card>img {
+    width: 248px;
+    height: 320px;
+    position: absolute;
+    top: -290px;
+}
+
+.card>h3 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38.4px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.card>p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 8px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: -200px;
+}
+
+ul {
+    display: flex;
+    gap: 24px;
+}
